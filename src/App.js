@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.sass';
 //import Router from "./Routes/routes"
 import Routers from "./Routes/routes"
 
