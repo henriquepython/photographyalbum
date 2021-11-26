@@ -6,11 +6,11 @@ import './Album.sass';
 
 const Album = () => {
     return(
-        <>
+        <div className = "container">
             <Header />
             <Card />
             <Footer />
-        </>
+        </div>
     );
 
 }

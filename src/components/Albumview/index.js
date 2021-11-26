@@ -3,8 +3,8 @@ import './Albumview.sass';
 
 const AlbumView = () => {
     return(
-        <>
-        </>
+        <div>
+        </div>
     );
 }
 

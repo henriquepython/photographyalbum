@@ -7,11 +7,11 @@ import './Home.sass';
 
 const Home = () => {
     return(
-        <>
+        <div className = "container">
             <Header />
             <AlbumView />
             <Footer />
-        </>
+        </div>
     );
 
 }
