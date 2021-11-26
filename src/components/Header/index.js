@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.sass';
-import logo from '../../images/logo.png'
+import logo from '../../images/logo1.png'
 import { FcAbout } from 'react-icons/fc'
 import { AiFillHome } from 'react-icons/ai'
 import { BiPhotoAlbum } from 'react-icons/bi'
