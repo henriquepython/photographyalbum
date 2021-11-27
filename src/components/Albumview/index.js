@@ -7,7 +7,6 @@ import foto2 from '../../assets/foto2.jpg'
 import foto3 from '../../assets/foto3.jpg'
 
 //importar imagens aqui e colocar no array abaixo
-
 const images = [ foto1, foto2, foto3 ]
 
 const AlbumView = () => {
