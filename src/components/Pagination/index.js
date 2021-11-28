@@ -19,9 +19,9 @@ const Pagination = () => {
         });
     }, []);
     return(
-        <>
-            {<div> <img src='{JSON.stringify(user.original)}' /></div>}
-        </>   
+        
+            <div className = "pag"> <p>{JSON.stringify(user)}</p></div>
+           
     );
 }
 
