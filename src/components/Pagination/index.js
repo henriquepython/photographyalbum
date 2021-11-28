@@ -9,7 +9,7 @@ const Pagination = () => {
 
     useEffect(() => {
         api
-        .get('/curated?page=2&per_page=10', {
+        .get('/curated?page=2&per_page=40', {
             headers: {
               Authorization: '563492ad6f91700001000001d717ba1d15da4f06bcc63b3eb177e0ba'
             }
