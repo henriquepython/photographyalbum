@@ -9,32 +9,37 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return(
-     
-        <header>
-            <div className="menu">
-                <div>
-                    <img className="logo" src={logo} alt="logo" />
-                </div>           
-                <ul>
-                
-                        <li>
-                            <AiFillHome />
-                            <button><Link to = "/">Inicio</Link></button>
-                        </li>
+     <>
+        <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button"/>
+        <label class="close-menu-label" for="close-menu" title="close-menu"></label>
+        <aside class="menu white-bg">
+            <section class="main-content menu-content">
 
+                <div><img className="logo" src={logo} alt="logo" /></div>
+                
+                <nav>
+                
+                    <ul onclick="getElementById('close-menu').checked = false;">
+                        <li> 
+                            <AiFillHome />
+                            <Link to = "/">Inicio</Link>
+                        </li>
                         <li>
                             <BiPhotoAlbum />
-                            <button><Link to = "/album">Album</Link></button>
+                            <Link to = "/album">Album</Link>
                         </li>
-                        
                         <li>
                             <FcAbout />
-                            <button><a href="https://github.com/henriquepython/">Sobre</a></button>
+                            <a href="https://github.com/henriquepython/">Sobre</a>
                         </li>
-                </ul>
-            </div>
-        </header>
+                    </ul>
+                </nav>
+            </section>
+        </aside>
+    </>
     );
 }
+
+
 
 export default Header;
