@@ -33,7 +33,7 @@ const AlbumView = () => {
         centerMode: true,
         centerPadding: 0,
         autoplay: true,
-        autoplaySpeed: 500,
+        autoplaySpeed: 900,
         cssEase: "linear",
         beforeChange: (current, next) => setImageIndex(next),
         };
@@ -47,7 +47,7 @@ const AlbumView = () => {
                         key = {item.id}
                         id={item.id}
                         title={item.photographer}
-                        src={item.src['small']}
+                        src={item.src['large2x']}
                         liker={item.liked}
                     />
                     </div>    

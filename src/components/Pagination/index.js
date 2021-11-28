@@ -23,9 +23,9 @@ const Pagination = () => {
     }, []);
     return(
         
-            <div>
+            <div className ="images">
                 {user?.map((item) => (
-                    <img
+                    <img className = "item"
                         key = {item.id}
                         id={item.id}
                         title={item.photographer}
