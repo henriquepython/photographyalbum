@@ -1,16 +1,27 @@
 import React from 'react';
 import './Albumview.sass';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Slider from 'react-slick';
-import foto1 from '../../assets/foto1.jpg'
-import foto2 from '../../assets/foto2.jpg'
-import foto3 from '../../assets/foto3.jpg'
+import api from '../../services/api.js';
 
-//importar imagens aqui e colocar no array abaixo
-const images = [ foto1, foto2, foto3 ]
 
 const AlbumView = () => {
+    const [user, setUser] = useState();
 
+    useEffect(() => {
+        api
+        .get('/curated?page=2&per_page=40', {
+            headers: {
+              Authorization: '563492ad6f91700001000001d717ba1d15da4f06bcc63b3eb177e0ba'
+            }
+           })
+        .then(({data}) => {
+            setUser(data.photos);
+        });
+        console.log(user)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, []);
+    
     const [imageIndex, setImageIndex] = useState(0);
 
     const settings = {
@@ -22,7 +33,7 @@ const AlbumView = () => {
         centerMode: true,
         centerPadding: 0,
         autoplay: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 500,
         cssEase: "linear",
         beforeChange: (current, next) => setImageIndex(next),
         };
@@ -30,9 +41,15 @@ const AlbumView = () => {
     return(
         <div className = "slides">
             <Slider {...settings}>
-                {images.map((img, idx) => (
+                {user?.map((item, idx) => (
                     <div className = { idx === imageIndex ? "slide activeSlide" : "slide"}>
-                        <img src={img} alt={img} />
+                        <img
+                        key = {item.id}
+                        id={item.id}
+                        title={item.photographer}
+                        src={item.src['small']}
+                        liker={item.liked}
+                    />
                     </div>    
                  ))}
             </Slider>

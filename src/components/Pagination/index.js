@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { scryRenderedComponentsWithType } from 'react-dom/test-utils';
+
 import api from '../../services/api.js'
 import './Pagination.sass';
 
@@ -26,7 +26,6 @@ const Pagination = () => {
             <div>
                 {user?.map((item) => (
                     <img
-                        
                         key = {item.id}
                         id={item.id}
                         title={item.photographer}
