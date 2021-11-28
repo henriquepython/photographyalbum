@@ -30,7 +30,7 @@ const Pagination = () => {
                         key = {item.id}
                         id={item.id}
                         title={item.photographer}
-                        link={item.src['small']}
+                        src={item.src['small']}
                         liker={item.liked}
                     />
                 ))}
