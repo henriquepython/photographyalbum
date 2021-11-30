@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import api from '../../services/api.js'
 import './Pagination.sass';
+import ButtonsPagination from '../ButtonsPagination'
 
 
 const Pagination = () => {
@@ -38,10 +39,10 @@ const Pagination = () => {
     
     return(
             <>
-            <div className="buttons-top">
+            <ButtonsPagination className="buttons-top">
                 <button onClick={prev}>Prev</button>
                 <button onClick={next}>Next</button>
-            </div>
+            </ButtonsPagination>
             <div className = "images">
                 {user?.map((item) => (
                     <img className = "item"
@@ -53,10 +54,10 @@ const Pagination = () => {
                     />
                 ))}
             </div>
-            <div className="buttons-down">
+            <ButtonsPagination className="buttons-down">
                 <button onClick={prev}>Prev</button>
                 <button onClick={next}>Next</button>
-            </div>
+            </ButtonsPagination>
             </>
     );
 }
