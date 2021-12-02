@@ -11,16 +11,27 @@ A aplicação consiste em um site totalmente responsivo, para um album de fotos,
 
 O site consiste em duas telas, a primeira tela é o inicio que é a tela principal que consiste num cabeçalho onde esta localizado o menu com três links, inicio, album e sobre, um slide carrosel interativo onde as imagens são exibidas em forma de slide e vão passando automaticamente ou se preferir arrastando a imagem para a esquerda ou direita, e um rodapé. e a segunda tela é o album, que é uma galeria onde as imagens estão guardadas e listadas em 30 imagens por pagina, e atraves de dois botões o next para avançar a pagina, e prev para voltar para a pagina anterior é realizado a paginação da galeria, ainda sendo possivel ver a imagem em tamanho real ao clicar nela. a pagina album é composto por um cabeçalho, galeria e rodapé.
 
+## GIF
+
+
 ## Layout mobile
-![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
+![Mobile 1](https://github.com/henriquepython/photographyalbum/tree/main/src/assets/mobile1.png) ![Mobile 2](https://github.com/henriquepython/photographyalbum/tree/main/src/assets/mobile2.png)
+
+![Mobile 3](https://github.com/henriquepython/photographyalbum/tree/main/src/assets/mobile3.png) ![Mobile 4](https://github.com/henriquepython/photographyalbum/tree/main/src/assets/mobile4.png)
+
+![Mobile 5](https://github.com/henriquepython/photographyalbum/tree/main/src/assets/mobile5.png)
 
 ## Layout web
-![Web 1](https://github.com/acenelio/assets/raw/main/sds1/web1.png)
+![Web 1](https://github.com/henriquepython/photographyalbum/tree/main/src/assets/web1.png)
 
-![Web 2](https://github.com/acenelio/assets/raw/main/sds1/web2.png)
+![Web 2](https://github.com/henriquepython/photographyalbum/tree/main/src/assets/web2.png)
 
-## Modelo conceitual
-![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
+![Web 3](https://github.com/henriquepython/photographyalbum/tree/main/src/assets/web3.png)
+
+![Web 4](https://github.com/henriquepython/photographyalbum/tree/main/src/assets/web4.png)
+
+![Web 5](https://github.com/henriquepython/photographyalbum/tree/main/src/assets/web5.png)
+
 
 # Tecnologias utilizadas
 ## Front end
