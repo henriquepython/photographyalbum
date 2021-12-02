@@ -8,7 +8,7 @@
 Link do deploy: https://myphotograph2021.netlify.app/
 
 
-MY_PHOTOGRAPH é uma aplicação front-end web totalmente responsiva construída como resposta de uma atividade.
+MY_PHOTOGRAPH é uma aplicação front-end web totalmente responsiva.
 
 A aplicação consiste em um site totalmente responsivo, para um album de fotos, onde para esse site as fotos foram carregadas da API pexels.
 
