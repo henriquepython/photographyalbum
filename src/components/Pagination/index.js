@@ -44,13 +44,15 @@ const Pagination = () => {
             </ButtonsPagination>
             <div className = "images">
                 {user?.map((item) => (
-                    <img className = "item"
-                        key = {item.id}
-                        id={item.id}
-                        title={item.photographer}
-                        src={item.src['medium']}
-                        liker={item.liked}
-                    />
+                    <a href={item.src['large2x']}>
+                        <img className = "item"
+                            key = {item.id}
+                            id={item.id}
+                            title={item.photographer}
+                            src={item.src['medium']}
+                            liker={item.liked}
+                        />
+                    </a>
                 ))}
             </div>
             <ButtonsPagination className="buttons-down">
