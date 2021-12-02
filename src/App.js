@@ -1,10 +1,7 @@
 import React from 'react';
-import './App.sass';
-//import Router from "./Routes/routes"
 import Routers from "./Routes/routes"
 
-
- const App = () => {
+const App = () => {
    return ( 
       <Routers />
    );

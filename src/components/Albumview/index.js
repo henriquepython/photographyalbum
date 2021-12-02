@@ -7,6 +7,20 @@ import api from '../../services/api.js';
 
 const AlbumView = () => {
     const [user, setUser] = useState();
+    const [imageIndex, setImageIndex] = useState(0);
+    const settings = {
+        infinite: true,
+        lazyload: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidestoScroll: 1,
+        centerMode: true,
+        centerPadding: 0,
+        autoplay: true,
+        autoplaySpeed: 2500,
+        cssEase: "linear",
+        beforeChange: (current, next) => setImageIndex(next),
+    };
 
     useEffect(() => {
         api
@@ -22,22 +36,6 @@ const AlbumView = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
     
-    const [imageIndex, setImageIndex] = useState(0);
-
-    const settings = {
-        infinite: true,
-        lazyload: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidestoScroll: 1,
-        centerMode: true,
-        centerPadding: 0,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        cssEase: "linear",
-        beforeChange: (current, next) => setImageIndex(next),
-        };
-
     return(
         <div className = "slides">
             <Slider {...settings}>

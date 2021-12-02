@@ -4,7 +4,6 @@ import AlbumView from '../components/Albumview'
 import Footer from '../components/Footer'
 import './Home.sass';
 
-
 const Home = () => {
     return(
         <div className = "container">
@@ -13,7 +12,6 @@ const Home = () => {
             <Footer />
         </div>
     );
-
 }
 
 export default Home;

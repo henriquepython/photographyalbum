@@ -5,14 +5,12 @@ import Album from "../pages/Album"
 
 const Routers = () => {
     return(
-    
         <BrowserRouter>
                 <Routes>
                     <Route exact path="/" element={<Home/>}/>
                     <Route path="/album" element={<Album/>}/>
                 </Routes>
         </BrowserRouter>     
-    
     );
 }
 

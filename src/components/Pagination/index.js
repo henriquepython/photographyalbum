@@ -4,10 +4,11 @@ import './Pagination.sass';
 import ButtonsPagination from '../ButtonsPagination'
 import { AiOutlineCloseSquare } from 'react-icons/ai'
 
-
 const Pagination = () => {
     const [user, setUser] = useState();
     const [page, setPage] = useState(1);
+    const [model, setModel] = useState(false);
+    const [tempimgSrc, setTempImgSrc] = useState(' ');
 
     function handleNext () {
         let pages = page + 1
@@ -21,6 +22,11 @@ const Pagination = () => {
         }
         return page
     }
+
+    const getImg = (imgSrc) => {
+        setTempImgSrc( imgSrc );
+        setModel(true);
+    }
     
     useEffect(() => {
         api
@@ -33,28 +39,21 @@ const Pagination = () => {
             setUser(data.photos);
         });
         console.log(user)
-
     // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [page]);
-    
-    const [model, setModel] = useState(false);
-    const [tempimgSrc, setTempImgSrc] = useState(' ');
 
-    const getImg = (imgSrc) => {
-        setTempImgSrc( imgSrc );
-        setModel(true);
-    }
     return(
-            <>
+        <>
             <div className={model? "model open" : "model"}>
                 <img src={tempimgSrc} />
                 <AiOutlineCloseSquare className="close" onClick={() => setModel(false)}/>
-
             </div>
+
             <ButtonsPagination className="buttons-top">
                 <button onClick={handlePrev}>Prev</button>
                 <button onClick={handleNext}>Next</button>
             </ButtonsPagination>
+            
             <div className = "images">
                 {user?.map((item, index) => (
                         <img className = "pics"
@@ -66,11 +65,12 @@ const Pagination = () => {
                             onClick={() => getImg(item.src['large'])} />
                 ))}
             </div>
+            
             <ButtonsPagination className="buttons-down">
                 <button onClick={handlePrev}>Prev</button>
                 <button onClick={handleNext}>Next</button>
             </ButtonsPagination>
-            </>
+        </>
     );
 }
 
