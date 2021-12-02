@@ -1,13 +1,13 @@
 <img style="margin:1rem;" src="./src/assets/logo1.png"/>
 
-# PHOTOGRAPHY ALBUM
+# MY_PHOTOGRAPH
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/henriquepython/photographyalbum/blob/main/LICENSE) 
 
 # Sobre o projeto
 
 LINK DEPLOY COLOCAR
 
-PHOTOGRAPHY ALBUM é uma aplicação front-end web totalmente responsiva construída como resposta de uma atividade.
+MY_PHOTOGRAPH é uma aplicação front-end web totalmente responsiva construída como resposta de uma atividade.
 
 A aplicação consiste em um site totalmente responsivo, para um album de fotos, onde para esse site as fotos foram carregadas da API pexels.
 
