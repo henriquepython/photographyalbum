@@ -15,6 +15,7 @@ A aplicação consiste em um site totalmente responsivo, para um album de fotos,
 O site consiste em duas telas, a primeira tela é o inicio que é a tela principal que consiste num cabeçalho onde esta localizado o menu com três links, inicio, album e sobre, um slide carrosel interativo onde as imagens são exibidas em forma de slide e vão passando automaticamente ou se preferir arrastando a imagem para a esquerda ou direita, e um rodapé. e a segunda tela é o album, que é uma galeria onde as imagens estão guardadas e listadas em 30 imagens por pagina, e atraves de dois botões o next para avançar a pagina, e prev para voltar para a pagina anterior é realizado a paginação da galeria, ainda sendo possivel ver a imagem em tamanho real ao clicar nela. a pagina album é composto por um cabeçalho, galeria e rodapé.
 
 ## GIF
+<img style="margin:30px auto;" src="./src/assets/animacaoweb.gif"/>
 
 ## Layout web
 <img src="./src/assets/web1.png"/>
