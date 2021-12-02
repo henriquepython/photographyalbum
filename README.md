@@ -23,15 +23,13 @@ O site consiste em duas telas, a primeira tela é o inicio que é a tela princip
 <img style="margin:1rem;" src="./src/assets/web5.png"/>
 
 ## Layout mobile
-<img style="margin:1rem;" src="./src/assets/mobile1.png"/>
-<img style="margin:1rem;" src="./src/assets/mobile5.png"/>
-<img style="margin:1rem;" src="./src/assets/mobile2.png"/>
-<img style="margin:1rem;" src="./src/assets/mobile3.png"/>
+<img style="margin:1rem;" src="./src/assets/mobile1.png"/><img style="margin:1rem;" src="./src/assets/mobile5.png"/>
+<img style="margin:1rem;" src="./src/assets/mobile2.png"/><img style="margin:1rem;" src="./src/assets/mobile3.png"/>
 <img style="margin:1rem;" src="./src/assets/mobile4.png"/>
 
 # Tecnologias utilizadas
 ## Front end
-- HTML / CSS / SASS / JS 
+- HTML / SASS / JS 
 - ReactJs
 - Axios
 ## Implantação em produção
