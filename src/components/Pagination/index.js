@@ -8,12 +8,12 @@ const Pagination = () => {
     const [user, setUser] = useState();
     const [page, setPage] = useState(1);
 
-    function next () {
+    function handleNext () {
         let pages = page + 1
         return setPage(pages)
     }
 
-    function prev () {
+    function handlePrev () {
         if (page > 1){
             let pages = page - 1
             return setPage(pages)
@@ -35,13 +35,12 @@ const Pagination = () => {
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [page]);
-
     
     return(
             <>
             <ButtonsPagination className="buttons-top">
-                <button onClick={prev}>Prev</button>
-                <button onClick={next}>Next</button>
+                <button onClick={handlePrev}>Prev</button>
+                <button onClick={handleNext}>Next</button>
             </ButtonsPagination>
             <div className = "images">
                 {user?.map((item) => (
@@ -55,8 +54,8 @@ const Pagination = () => {
                 ))}
             </div>
             <ButtonsPagination className="buttons-down">
-                <button onClick={prev}>Prev</button>
-                <button onClick={next}>Next</button>
+                <button onClick={handlePrev}>Prev</button>
+                <button onClick={handleNext}>Next</button>
             </ButtonsPagination>
             </>
     );
