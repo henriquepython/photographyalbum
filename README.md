@@ -16,16 +16,16 @@ O site consiste em duas telas, a primeira tela é o inicio que é a tela princip
 ## GIF
 
 ## Layout web
-<img style="margin:1rem;" src="./src/assets/web1.png"/>
-<img style="margin:1rem;" src="./src/assets/web2.png"/>
-<img style="margin:1rem;" src="./src/assets/web3.png"/>
-<img style="margin:1rem;" src="./src/assets/web4.png"/>
-<img style="margin:1rem;" src="./src/assets/web5.png"/>
+<img src="./src/assets/web1.png"/>
+<img src="./src/assets/web2.png"/>
+<img src="./src/assets/web3.png"/>
+<img src="./src/assets/web4.png"/>
+<img src="./src/assets/web5.png"/>
 
 ## Layout mobile
-<img style="margin:1rem;" src="./src/assets/mobile1.png"/><img style="margin:1rem;" src="./src/assets/mobile5.png"/>
-<img style="margin:1rem;" src="./src/assets/mobile2.png"/><img style="margin:1rem;" src="./src/assets/mobile3.png"/>
-<img style="margin:1rem;" src="./src/assets/mobile4.png"/>
+<img style="margin:16px;" src="./src/assets/mobile1.png"/><img style="margin:16px;" src="./src/assets/mobile5.png"/>
+<img style="margin:16px;" src="./src/assets/mobile2.png"/><img style="margin:16px;" src="./src/assets/mobile3.png"/>
+<img style="margin:16px;" src="./src/assets/mobile4.png"/>
 
 # Tecnologias utilizadas
 ## Front end
