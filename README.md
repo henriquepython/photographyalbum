@@ -1,4 +1,4 @@
-<img style="margin:1rem;" src="./src/assets/logo1.png"/>
+<img style="margin:16px auto;" src="./src/assets/logo1.png"/>
 
 # MY_PHOTOGRAPH
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/henriquepython/photographyalbum/blob/main/LICENSE) 
@@ -23,8 +23,10 @@ O site consiste em duas telas, a primeira tela é o inicio que é a tela princip
 <img src="./src/assets/web5.png"/>
 
 ## Layout mobile
-<img style="margin:16px;" src="./src/assets/mobile1.png"/><img style="margin:16px;" src="./src/assets/mobile5.png"/>
-<img style="margin:16px;" src="./src/assets/mobile2.png"/><img style="margin:16px;" src="./src/assets/mobile3.png"/>
+<img style="margin:16px;" src="./src/assets/mobile1.png"/>
+<img style="margin:16px;" src="./src/assets/mobile5.png"/>
+<img style="margin:16px;" src="./src/assets/mobile2.png"/>
+<img style="margin:16px;" src="./src/assets/mobile3.png"/>
 <img style="margin:16px;" src="./src/assets/mobile4.png"/>
 
 # Tecnologias utilizadas
