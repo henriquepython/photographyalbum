@@ -15,11 +15,7 @@ O site consiste em duas telas, a primeira tela é o inicio que é a tela princip
 
 
 ## Layout mobile
-![Mobile 1](https://github.com/henriquepython/photographyalbum/tree/main/src/assets/mobile1.png) ![Mobile 2](https://github.com/henriquepython/photographyalbum/tree/main/src/assets/mobile2.png)
-
-![Mobile 3](https://github.com/henriquepython/photographyalbum/tree/main/src/assets/mobile3.png) ![Mobile 4](https://github.com/henriquepython/photographyalbum/tree/main/src/assets/mobile4.png)
-
-![Mobile 5](https://github.com/henriquepython/photographyalbum/tree/main/src/assets/mobile5.png)
+<img src="./src/assets/mobile1.png"/>
 
 ## Layout web
 ![Web 1](https://github.com/henriquepython/photographyalbum/tree/main/src/assets/web1.png)
