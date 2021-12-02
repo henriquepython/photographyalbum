@@ -1,3 +1,5 @@
+<img style="margin:1rem;" src="./src/assets/logo1.png"/>
+
 # PHOTOGRAPHY ALBUM
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/henriquepython/photographyalbum/blob/main/LICENSE) 
 
@@ -13,27 +15,23 @@ O site consiste em duas telas, a primeira tela é o inicio que é a tela princip
 
 ## GIF
 
+## Layout web
+<img style="margin:1rem;" src="./src/assets/web1.png"/>
+<img style="margin:1rem;" src="./src/assets/web2.png"/>
+<img style="margin:1rem;" src="./src/assets/web3.png"/>
+<img style="margin:1rem;" src="./src/assets/web4.png"/>
+<img style="margin:1rem;" src="./src/assets/web5.png"/>
 
 ## Layout mobile
-<img style="margin:1rem;" src="./src/assets/mobile1.png"/><img style="margin:1rem;" src="./src/assets/mobile2.png"/>
-<img style="margin:1rem;" src="./src/assets/mobile3.png"/><img style="margin:1rem;" src="./src/assets/mobile4.png"/>
+<img style="margin:1rem;" src="./src/assets/mobile1.png"/>
 <img style="margin:1rem;" src="./src/assets/mobile5.png"/>
-
-## Layout web
-![Web 1](https://github.com/henriquepython/photographyalbum/tree/main/src/assets/web1.png)
-
-![Web 2](https://github.com/henriquepython/photographyalbum/tree/main/src/assets/web2.png)
-
-![Web 3](https://github.com/henriquepython/photographyalbum/tree/main/src/assets/web3.png)
-
-![Web 4](https://github.com/henriquepython/photographyalbum/tree/main/src/assets/web4.png)
-
-![Web 5](https://github.com/henriquepython/photographyalbum/tree/main/src/assets/web5.png)
-
+<img style="margin:1rem;" src="./src/assets/mobile2.png"/>
+<img style="margin:1rem;" src="./src/assets/mobile3.png"/>
+<img style="margin:1rem;" src="./src/assets/mobile4.png"/>
 
 # Tecnologias utilizadas
 ## Front end
-- HTML / CSS / JS 
+- HTML / CSS / SASS / JS 
 - ReactJs
 - Axios
 ## Implantação em produção
