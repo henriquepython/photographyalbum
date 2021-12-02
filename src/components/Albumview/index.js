@@ -33,7 +33,7 @@ const AlbumView = () => {
         centerMode: true,
         centerPadding: 0,
         autoplay: true,
-        autoplaySpeed: 1200,
+        autoplaySpeed: 2000,
         cssEase: "linear",
         beforeChange: (current, next) => setImageIndex(next),
         };
