@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import api from '../../services/api.js'
 import './Pagination.sass';
 import ButtonsPagination from '../ButtonsPagination'
+import { AiOutlineCloseSquare } from 'react-icons/ai'
 
 
 const Pagination = () => {
@@ -36,23 +37,33 @@ const Pagination = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [page]);
     
+    const [model, setModel] = useState(false);
+    const [tempimgSrc, setTempImgSrc] = useState(' ');
+
+    const getImg = (imgSrc) => {
+        setTempImgSrc( imgSrc );
+        setModel(true);
+    }
     return(
             <>
+            <div className={model? "model open" : "model"}>
+                <img src={tempimgSrc} />
+                <AiOutlineCloseSquare className="close" onClick={() => setModel(false)}/>
+
+            </div>
             <ButtonsPagination className="buttons-top">
                 <button onClick={handlePrev}>Prev</button>
                 <button onClick={handleNext}>Next</button>
             </ButtonsPagination>
             <div className = "images">
-                {user?.map((item) => (
-                    <a href={item.src['large2x']}>
-                        <img className = "item"
-                            key = {item.id}
+                {user?.map((item, index) => (
+                        <img className = "pics"
+                            key = {index}
                             id={item.id}
                             title={item.photographer}
                             src={item.src['medium']}
                             liker={item.liked}
-                        />
-                    </a>
+                            onClick={() => getImg(item.src['large'])} />
                 ))}
             </div>
             <ButtonsPagination className="buttons-down">
