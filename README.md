@@ -3,7 +3,7 @@
 # MY_PHOTOGRAPH
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/henriquepython/photographyalbum/blob/main/LICENSE) 
 
-# Sobre o projeto
+# Sobre
 
 Link do deploy: https://myphotograph2021.netlify.app/
 
@@ -14,6 +14,24 @@ A aplicação consiste em um site totalmente responsivo, para um album de fotos,
 
 O site consiste em duas telas, a primeira tela é o inicio que é a tela principal que consiste num cabeçalho onde esta localizado o menu com três links, inicio, album e sobre, um slide carrosel interativo onde as imagens são exibidas em forma de slide e vão passando automaticamente ou se preferir arrastando a imagem para a esquerda ou direita, e um rodapé. e a segunda tela é o album, que é uma galeria onde as imagens estão guardadas e listadas em 30 imagens por pagina, e atraves de dois botões o next para avançar a pagina, e prev para voltar para a pagina anterior é realizado a paginação da galeria, ainda sendo possivel ver a imagem em tamanho real ao clicar nela. a pagina album é composto por um cabeçalho, galeria e rodapé.
 
+# Tabela de conteúdos
+
+<!--ts-->
+   * [Sobre](#Sobre)
+   * [Tabela de conteúdo](#tabela-de-conteudo)
+   * [Demonstração](#Demostração)
+      * [Gif](#GIF)
+      * [Layout web](#Layout-web)
+      * [Layout mobile](#layout-mobile)
+   * [Tecnologias utilizadas](#tecnologias-utilizadas)
+      * [Front end](#front-end)
+      * [Implantação em produção](#Implantação-em-produção)
+   * [Como executar o projeto](#Como-executar-o-projeto)
+      * [Front end web](#front-end-web)
+   * [Autor](#Autor)
+<!--te-->
+
+# Demostração
 ## GIF
 <img style="margin:30px auto;" src="./src/assets/animacaoweb.gif"/>
 
@@ -61,5 +79,7 @@ npm start
 # Autor
 
 João Henrique Batista Cerqueira
+
+FRONT-END DEVELOPER
 
 https://www.linkedin.com/in/jo%C3%A3o-henrique-batista-pereira/
