@@ -44,10 +44,11 @@ O site consiste em duas telas, a primeira tela é o inicio que é a tela princip
 
 ## Layout mobile
 <img style="margin:16px;" src="./src/assets/mobile1.png"/>
-<img style="margin:16px;" src="./src/assets/mobile5.png"/>
 <img style="margin:16px;" src="./src/assets/mobile2.png"/>
 <img style="margin:16px;" src="./src/assets/mobile3.png"/>
 <img style="margin:16px;" src="./src/assets/mobile4.png"/>
+<img style="margin:16px;" src="./src/assets/mobile5.png"/>
+<img style="margin:16px;" src="./src/assets/mobile6.png"/>
 
 # Tecnologias utilizadas
 ## Front end
