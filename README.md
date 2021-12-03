@@ -50,6 +50,7 @@ O site consiste em duas telas, a primeira tela é o inicio que é a tela princip
 <img style="margin:16px;" src="./src/assets/mobile5.png"/>
 <img style="margin:16px;" src="./src/assets/mobile6.png"/>
 
+
 # Tecnologias utilizadas
 ## Front end
 - HTML / SASS / JS 
