@@ -4,7 +4,6 @@ import './Footer.sass';
 
 const Footer = () => {
     return(
-       
         <footer>
             <div class="left box">
 				<div class="content">
