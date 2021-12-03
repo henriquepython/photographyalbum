@@ -19,7 +19,7 @@ O site consiste em duas telas, a primeira tela é o inicio que é a tela princip
 <!--ts-->
    * [Sobre](#Sobre)
    * [Tabela de conteúdo](#tabela-de-conteudo)
-   * [Demonstração](#Demostração)
+   * [Demonstração](#Demonstração)
       * [Gif](#GIF)
       * [Layout web](#Layout-web)
       * [Layout mobile](#layout-mobile)
@@ -31,7 +31,7 @@ O site consiste em duas telas, a primeira tela é o inicio que é a tela princip
    * [Autor](#Autor)
 <!--te-->
 
-# Demostração
+# Demonstração
 ## GIF
 <img style="margin:30px auto;" src="./src/assets/animacaoweb.gif"/>
 
